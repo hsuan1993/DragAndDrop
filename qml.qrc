@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>LeftMeun.qml</file>
+        <file>ChannelList.qml</file>
+    </qresource>
+    <qresource prefix="/image">
+        <file>LeftMenu.Video.Nomal.png</file>
+        <file>LeftMenu.Video.Over.png</file>
+        <file>LeftMenu.Add.Nomal.png</file>
+        <file>LeftMenu.Add.Over.png</file>
+        <file>LeftMenu.Reduce.Nomal.png</file>
+        <file>LeftMenu.Reduce.Over.png</file>
+        <file>Schedule.Setting.Button.Disable.png</file>
+        <file>Schedule.Setting.Button.Nomal.png</file>
+    </qresource>
+</RCC>
