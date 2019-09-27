@@ -237,7 +237,6 @@ Item {
                                                 console.log("onPressed");
 //                                                parent.Drag.active = true;//被拖動的物件產生一個拖動進入事件
 //                                                parent.Drag.startDrag(Qt.CopyAction);
-//                                                toggleModel.isDragging = true;
                                                 parent.Drag.start(Qt.CopyAction);
 
 
@@ -246,11 +245,10 @@ Item {
                                                 console.log("onReleased");
                                                 parent.Drag.drop();
 //                                                parent.Drag.active = false; //產生拖動離開事件
-//                                                if(parent.Drag.supportedActions === Qt.CopyAction) {
                                                     parent.x = 0;
                                                     parent.y = 0;
-//                                                }
-//                                                toggleModel.isDragging = false;
+
+
 
 
                                             }

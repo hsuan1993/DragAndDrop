@@ -2,7 +2,6 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>LeftMeun.qml</file>
-        <file>ChannelList.qml</file>
     </qresource>
     <qresource prefix="/image">
         <file>LeftMenu.Video.Nomal.png</file>
